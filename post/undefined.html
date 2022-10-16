@@ -11,13 +11,28 @@
   <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-  <title>Hello World | Mr.T</title>
+  <title>Altera FPGA 例程目录 | Mr.T</title>
 
   <link rel="icon" type="image/x-icon, image/vnd.microsoft.icon" href="/medias/favicon.ico">
   <link rel="stylesheet" href="https://at.alicdn.com/t/font_1911880_c1nvbyezg17.css">
   <link href="https://unpkg.com/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
   <link href="/js/swiper/swiper@5.4.1.min.css" rel="stylesheet">
   
+  
+    <script>
+        var themeModelId = '0';
+        if (themeModelId) {
+            localStorage.setItem('modelId', themeModelId);
+        }
+    </script>
+    
+    <script src="https://cdn.jsdelivr.net/gh/yuang01/live2d-widget@latest/autoload.js"></script>
+    <script>
+        var live2dOpen = eval('true') || false;
+        if (!live2dOpen) {
+            localStorage.setItem('waifu-display', 1609323474481);
+        }
+    </script>
   
   
   
@@ -833,21 +848,21 @@
 
 
 <div class="post-detail-header" id="thumbnail_canvas" style="background-repeat: no-repeat; background-size: cover; 
-  background-position: center center;position: relative;background-image:url('/medias/7.jpg')">
+  background-position: center center;position: relative;background-image:url('/medias/5.jpg')">
   <div class="post-detail-header-mask"></div>
   <canvas id="header_canvas"style="position:absolute;bottom:0;pointer-events:none;"></canvas>
   
   <div class="post-detail-header_info-box">
     <div class="title-box">
       <span class="title">
-        Hello World
+        Altera FPGA 例程目录
       </span>
     </div>
     
     
       
         <span class="post-detail-header_date">
-          <i class="fas fa-calendar"></i> 发表于：2022-10-15 |
+          <i class="fas fa-calendar"></i> 发表于：2022-08-20 |
         </span>
       
 
@@ -871,19 +886,22 @@
   <div class="main-content">
     <article class="post post-detail">
       <div class="post-content">
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+        <div style="text-align: center;"><span style="font-family: 黑体, Heiti SC; font-size: 18px;">欢迎来到 FPGA 多彩世界</span></div>
+<br />
+<div style="text-align: left;"><span style="font-family: 宋体, 'Songti SC'; font-size: 13px;">&nbsp; &nbsp; FPGA，它是一系列xxxx。</span></div>
+<div style="text-align: left;"><span style="font-family: 宋体, 'Songti SC'; font-size: 13px;">&nbsp; &nbsp; 此处根据应用中的接触，列举 Altera 如下几种 FPGA 类型做示范以及进一步深入学习。<br />  </span></div>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<hr>
+<hr>
+<h2 id="Altera-C-系列"><a href="#Altera-C-系列" class="headerlink" title="Altera C 系列"></a>Altera C 系列</h2><ul>
+<li><h3 id="C3XXXX-型"><a href="#C3XXXX-型" class="headerlink" title="C3XXXX 型"></a>C3XXXX 型</h3>  例程（0）工程创建<br>  例程【<a href="#">Verilog版</a> | <a href="#">VHDL版</a>】（1）点灯<br>  例程【<a href="#">Verilog版</a> | <a href="#">VHDL版</a>】（2）流水灯<br>  例程【<a href="#">Verilog版</a> | <a href="#">VHDL版</a>】（3）按键控灯<br>  例程【<a href="#">Verilog版</a> | <a href="#">VHDL版</a>】（4）按键控蜂鸣器<br>  例程【<a href="#">Verilog版</a> | <a href="#">VHDL版</a>】（5）触摸键控灯<br>  例程【<a href="#">Verilog版</a> | <a href="#">VHDL版</a>】（6）呼吸灯<br>  例程【<a href="#">Verilog版</a> | <a href="#">VHDL版</a>】（7）静态数码管显示<br>  例程【<a href="#">Verilog版</a> | <a href="#">VHDL版</a>】（8）动态数码管显示<br>  例程【<a href="#">Verilog版</a> | <a href="#">VHDL版</a>】（9）Xilinx PLL核应用<br>  例程【<a href="#">Verilog版</a> | <a href="#">VHDL版</a>】（10）Xilinx RAM核应用<br>  例程【<a href="#">Verilog版</a> | <a href="#">VHDL版</a>】（11）Xilinx FIFO核应用<br>  例程【<a href="#">Verilog版</a> | <a href="#">VHDL版</a>】（12）接口UART RS232驱动<br>  例程【<a href="#">Verilog版</a> | <a href="#">VHDL版</a>】（13）接口UART RS485驱动<br>  例程【<a href="#">Verilog版</a> | <a href="#">VHDL版</a>】（14）RGB-LCD彩条显示驱动<br>  例程【<a href="#">Verilog版</a> | <a href="#">VHDL版</a>】（15）RGB-LCD字符与图片显示驱动<br>  例程【<a href="#">Verilog版</a> | <a href="#">VHDL版</a>】（16）HDMI彩条显示驱动<br>  例程【<a href="#">Verilog版</a> | <a href="#">VHDL版</a>】（17）HDMI方块移动显示驱动<br>  例程【<a href="#">Verilog版</a> | <a href="#">VHDL版</a>】（18）频率计<br>  例程【<a href="#">Verilog版</a> | <a href="#">VHDL版</a>】（19）器件驱动——访问EEPROM<br>  例程【<a href="#">Verilog版</a> | <a href="#">VHDL版</a>】（20）器件驱动——RTC事实时钟LCD显示<br>  例程【<a href="#">Verilog版</a> | <a href="#">VHDL版</a>】（21）器件驱动——LCD触摸屏<br>  例程【<a href="#">Verilog版</a> | <a href="#">VHDL版</a>】（22）器件驱动——高速AD&#x2F;DA<br>  例程【<a href="#">Verilog版</a> | <a href="#">VHDL版</a>】（23）器件驱动——双路高速DA<br>  例程【<a href="#">Verilog版</a> | <a href="#">VHDL版</a>】（24）器件驱动——双路高速AD<br>  例程【<a href="#">Verilog版</a> | <a href="#">VHDL版</a>】（25）接口USB通信驱动<br>  例程【<a href="#">Verilog版</a> | <a href="#">VHDL版</a>】（26）读写DDR3驱动<br>  例程【<a href="#">Verilog版</a> | <a href="#">VHDL版</a>】（27）OV7725摄像头RGB-LCD显示<br>  例程【<a href="#">Verilog版</a> | <a href="#">VHDL版</a>】（28）OV7725摄像头HDMI显示<br>  例程【<a href="#">Verilog版</a> | <a href="#">VHDL版</a>】（29）OV7725摄像头HDMI旋转显示<br>  例程【<a href="#">Verilog版</a> | <a href="#">VHDL版</a>】（30）OV5640摄像头RGB-LCD显示<br>  例程【<a href="#">Verilog版</a> | <a href="#">VHDL版</a>】（31）OV5640摄像头HDMI显示<br>  例程【<a href="#">Verilog版</a> | <a href="#">VHDL版</a>】（32）OV5640摄像头HDMI缩放显示<br>  例程【<a href="#">Verilog版</a> | <a href="#">VHDL版</a>】（33）OV5640摄像头HDMI视频传输<br>  例程【<a href="#">Verilog版</a> | <a href="#">VHDL版</a>】（34）MT9V034摄像头RGB-LCD显示<br>  例程【<a href="#">Verilog版</a> | <a href="#">VHDL版</a>】（35）MT9V034摄像头HDMI显示<br>  例程【<a href="#">Verilog版</a> | <a href="#">VHDL版</a>】（36）访问SD卡<br>  例程【<a href="#">Verilog版</a> | <a href="#">VHDL版</a>】（37）访问SD卡——BMP格式图片LCD显示<br>  例程【<a href="#">Verilog版</a> | <a href="#">VHDL版</a>】（38）访问SD卡——BMP格式图片HDMI显示<br>  例程【<a href="#">Verilog版</a> | <a href="#">VHDL版</a>】（39）MDIO接口<br>  例程【<a href="#">Verilog版</a> | <a href="#">VHDL版</a>】（40）以太网ARP<br>  例程【<a href="#">Verilog版</a> | <a href="#">VHDL版</a>】（41）以太网UDP<br>  例程【<a href="#">Verilog版</a> | <a href="#">VHDL版</a>】（42）以太网传图片（LCD显示）<br>  例程【<a href="#">Verilog版</a> | <a href="#">VHDL版</a>】（43）HDMI输入输出环回<br>  例程【<a href="#">Verilog版</a> | <a href="#">VHDL版</a>】（44）OV5640摄像头HDMI灰度显示<br>  例程【<a href="#">Verilog版</a> | <a href="#">VHDL版</a>】（45）OV5640摄像头RGB-LCD灰度显示<br>  例程【<a href="#">Verilog版</a> | <a href="#">VHDL版</a>】（46）基于OV5640的中值滤波<br>  例程【<a href="#">Verilog版</a> | <a href="#">VHDL版</a>】（47）基于OV5640的二值化<br>  例程【<a href="#">Verilog版</a> | <a href="#">VHDL版</a>】（48）基于OV5640的Sobel边缘检测<br>  例程【<a href="#">Verilog版</a> | <a href="#">VHDL版</a>】（49）双目OV5640的RGB-LCD显示<br>  例程【<a href="#">Verilog版</a> | <a href="#">VHDL版</a>】（50）双目OV5640的HDMI显示<br>  例程【<a href="#">Verilog版</a> | <a href="#">VHDL版</a>】（51）光纤接口眼图测试<br>  例程【<a href="#">Verilog版</a> | <a href="#">VHDL版</a>】（52）基于OV5640的数字识别<br>  例程【<a href="#">Verilog版</a> | <a href="#">VHDL版</a>】（53）光纤接口8b10b测试<br>  例程【<a href="#">Verilog版</a> | <a href="#">VHDL版</a>】（54）基于光口的视频传输测试<br></li>
+</ul>
+<hr>
+<hr>
+<h2 id="Altera-MAX-II-系列"><a href="#Altera-MAX-II-系列" class="headerlink" title="Altera MAX II 系列"></a>Altera MAX II 系列</h2><ul>
+<li><h3 id="E4XXXX-型"><a href="#E4XXXX-型" class="headerlink" title="E4XXXX 型"></a>E4XXXX 型</h3>  例程（0）工程创建<br>  例程【<a target="_blank" rel="noopener" href="https://www.cnblogs.com/roy-e/articles/16560240.html">Verilog版</a> | <a href="#">VHDL版</a>】（1）点灯<br>  例程【<a target="_blank" rel="noopener" href="https://www.cnblogs.com/roy-e/articles/16560304.html">Verilog版</a> | <a href="#">VHDL版</a>】（2）流水灯<br>  例程【<a target="_blank" rel="noopener" href="https://www.cnblogs.com/roy-e/articles/16560328.html">Verilog版</a> | <a href="#">VHDL版</a>】（3）按键控灯<br>  例程【<a target="_blank" rel="noopener" href="https://www.cnblogs.com/roy-e/articles/16561272.html">Verilog版</a> | <a href="#">VHDL版</a>】（4）按键控蜂鸣器<br>  例程【<a target="_blank" rel="noopener" href="https://www.cnblogs.com/roy-e/articles/16561719.html">Verilog版</a> | <a href="#">VHDL版</a>】（5）触摸键控灯<br>  例程【<a target="_blank" rel="noopener" href="https://www.cnblogs.com/roy-e/articles/16562832.html">Verilog版</a> | <a href="#">VHDL版</a>】（6）呼吸灯<br>  例程【<a target="_blank" rel="noopener" href="https://www.cnblogs.com/roy-e/articles/16594612.html">Verilog版</a> | <a href="#">VHDL版</a>】（7）静态数码管显示<br>  例程【<a target="_blank" rel="noopener" href="https://www.cnblogs.com/roy-e/articles/16594625.html">Verilog版</a> | <a href="#">VHDL版</a>】（8）动态数码管显示<br>  例程【<a target="_blank" rel="noopener" href="https://www.cnblogs.com/roy-e/articles/16594663.html">Verilog版</a> | <a href="#">VHDL版</a>】（9）Xilinx PLL核应用<br>  例程【<a target="_blank" rel="noopener" href="https://www.cnblogs.com/roy-e/articles/16594668.html">Verilog版</a> | <a href="#">VHDL版</a>】（10）Xilinx RAM核应用<br>  例程【<a target="_blank" rel="noopener" href="https://www.cnblogs.com/roy-e/articles/16594672.html">Verilog版</a> | <a href="#">VHDL版</a>】（11）Xilinx FIFO核应用<br>  例程【<a target="_blank" rel="noopener" href="https://www.cnblogs.com/roy-e/articles/16594675.html">Verilog版</a> | <a href="#">VHDL版</a>】（12）接口UART RS232驱动<br>  例程【<a target="_blank" rel="noopener" href="https://www.cnblogs.com/roy-e/articles/16594677.html">Verilog版</a> | <a href="#">VHDL版</a>】（13）接口UART RS485驱动<br>  例程【<a target="_blank" rel="noopener" href="https://www.cnblogs.com/roy-e/articles/16594701.html">Verilog版</a> | <a href="#">VHDL版</a>】（14）RGB-LCD彩条显示驱动<br>  例程【<a target="_blank" rel="noopener" href="https://www.cnblogs.com/roy-e/articles/16594706.html">Verilog版</a> | <a href="#">VHDL版</a>】（15）RGB-LCD字符与图片显示驱动<br>  例程【<a target="_blank" rel="noopener" href="https://www.cnblogs.com/roy-e/articles/16594712.html">Verilog版</a> | <a href="#">VHDL版</a>】（16）HDMI彩条显示驱动<br>  例程【<a target="_blank" rel="noopener" href="https://www.cnblogs.com/roy-e/articles/16594713.html">Verilog版</a> | <a href="#">VHDL版</a>】（17）HDMI方块移动显示驱动<br>  例程【<a target="_blank" rel="noopener" href="https://www.cnblogs.com/roy-e/articles/16594717.html">Verilog版</a> | <a href="#">VHDL版</a>】（18）频率计<br>  例程【<a target="_blank" rel="noopener" href="https://www.cnblogs.com/roy-e/articles/16594718.html">Verilog版</a> | <a href="#">VHDL版</a>】（19）器件驱动——访问EEPROM<br>  例程【<a target="_blank" rel="noopener" href="https://www.cnblogs.com/roy-e/articles/16594726.html">Verilog版</a> | <a href="#">VHDL版</a>】（20）器件驱动——RTC事实时钟LCD显示<br>  例程【<a target="_blank" rel="noopener" href="https://www.cnblogs.com/roy-e/articles/16594733.html">Verilog版</a> | <a href="#">VHDL版</a>】（21）器件驱动——LCD触摸屏<br>  例程【<a target="_blank" rel="noopener" href="https://www.cnblogs.com/roy-e/articles/16594734.html">Verilog版</a> | <a href="#">VHDL版</a>】（22）器件驱动——高速AD&#x2F;DA<br>  例程【<a target="_blank" rel="noopener" href="https://www.cnblogs.com/roy-e/articles/16594739.html">Verilog版</a> | <a href="#">VHDL版</a>】（23）器件驱动——双路高速DA<br>  例程【<a target="_blank" rel="noopener" href="https://www.cnblogs.com/roy-e/articles/16594741.html">Verilog版</a> | <a href="#">VHDL版</a>】（24）器件驱动——双路高速AD<br>  例程【<a target="_blank" rel="noopener" href="https://www.cnblogs.com/roy-e/articles/16594743.html">Verilog版</a> | <a href="#">VHDL版</a>】（25）接口USB通信驱动<br>  例程【<a target="_blank" rel="noopener" href="https://www.cnblogs.com/roy-e/articles/16594744.html">Verilog版</a> | <a href="#">VHDL版</a>】（26）读写DDR3驱动<br>  例程【<a target="_blank" rel="noopener" href="https://www.cnblogs.com/roy-e/articles/16594746.html">Verilog版</a> | <a href="#">VHDL版</a>】（27）OV7725摄像头RGB-LCD显示<br>  例程【<a target="_blank" rel="noopener" href="https://www.cnblogs.com/roy-e/articles/16594749.html">Verilog版</a> | <a href="#">VHDL版</a>】（28）OV7725摄像头HDMI显示<br>  例程【<a target="_blank" rel="noopener" href="https://www.cnblogs.com/roy-e/articles/16594750.html">Verilog版</a> | <a href="#">VHDL版</a>】（29）OV7725摄像头HDMI旋转显示<br>  例程【<a target="_blank" rel="noopener" href="https://www.cnblogs.com/roy-e/articles/16594771.html">Verilog版</a> | <a href="#">VHDL版</a>】（30）OV5640摄像头RGB-LCD显示<br>  例程【<a target="_blank" rel="noopener" href="https://www.cnblogs.com/roy-e/articles/16594773.html">Verilog版</a> | <a href="#">VHDL版</a>】（31）OV5640摄像头HDMI显示<br>  例程【<a target="_blank" rel="noopener" href="https://www.cnblogs.com/roy-e/articles/16594775.html">Verilog版</a> | <a href="#">VHDL版</a>】（32）OV5640摄像头HDMI缩放显示<br>  例程【<a target="_blank" rel="noopener" href="https://www.cnblogs.com/roy-e/articles/16594777.html">Verilog版</a> | <a href="#">VHDL版</a>】（33）OV5640摄像头HDMI视频传输<br>  例程【<a target="_blank" rel="noopener" href="https://www.cnblogs.com/roy-e/articles/16594779.html">Verilog版</a> | <a href="#">VHDL版</a>】（34）MT9V034摄像头RGB-LCD显示<br>  例程【<a target="_blank" rel="noopener" href="https://www.cnblogs.com/roy-e/articles/16594780.html">Verilog版</a> | <a href="#">VHDL版</a>】（35）MT9V034摄像头HDMI显示<br>  例程【<a target="_blank" rel="noopener" href="https://www.cnblogs.com/roy-e/articles/16594782.html">Verilog版</a> | <a href="#">VHDL版</a>】（36）访问SD卡<br>  例程【<a target="_blank" rel="noopener" href="https://www.cnblogs.com/roy-e/articles/16594786.html">Verilog版</a> | <a href="#">VHDL版</a>】（37）访问SD卡——BMP格式图片LCD显示<br>  例程【<a target="_blank" rel="noopener" href="https://www.cnblogs.com/roy-e/articles/16594789.html">Verilog版</a> | <a href="#">VHDL版</a>】（38）访问SD卡——BMP格式图片HDMI显示<br>  例程【<a target="_blank" rel="noopener" href="https://www.cnblogs.com/roy-e/articles/16594790.html">Verilog版</a> | <a href="#">VHDL版</a>】（39）MDIO接口<br>  例程【<a target="_blank" rel="noopener" href="https://www.cnblogs.com/roy-e/articles/16594792.html">Verilog版</a> | <a href="#">VHDL版</a>】（40）以太网ARP<br>  例程【<a target="_blank" rel="noopener" href="https://www.cnblogs.com/roy-e/articles/16594793.html">Verilog版</a> | <a href="#">VHDL版</a>】（41）以太网UDP<br>  例程【<a target="_blank" rel="noopener" href="https://www.cnblogs.com/roy-e/articles/16594795.html">Verilog版</a> | <a href="#">VHDL版</a>】（42）以太网传图片（LCD显示）<br>  例程【<a target="_blank" rel="noopener" href="https://www.cnblogs.com/roy-e/articles/16594796.html">Verilog版</a> | <a href="#">VHDL版</a>】（43）HDMI输入输出环回<br>  例程【<a target="_blank" rel="noopener" href="https://www.cnblogs.com/roy-e/articles/16594798.html">Verilog版</a> | <a href="#">VHDL版</a>】（44）OV5640摄像头HDMI灰度显示<br>  例程【<a target="_blank" rel="noopener" href="https://www.cnblogs.com/roy-e/articles/16594800.html">Verilog版</a> | <a href="#">VHDL版</a>】（45）OV5640摄像头RGB-LCD灰度显示<br>  例程【<a target="_blank" rel="noopener" href="https://www.cnblogs.com/roy-e/articles/16594802.html">Verilog版</a> | <a href="#">VHDL版</a>】（46）基于OV5640的中值滤波<br>  例程【<a target="_blank" rel="noopener" href="https://www.cnblogs.com/roy-e/articles/16594803.html">Verilog版</a> | <a href="#">VHDL版</a>】（47）基于OV5640的二值化<br>  例程【<a target="_blank" rel="noopener" href="https://www.cnblogs.com/roy-e/articles/16594806.html">Verilog版</a> | <a href="#">VHDL版</a>】（48）基于OV5640的Sobel边缘检测<br>  例程【<a target="_blank" rel="noopener" href="https://www.cnblogs.com/roy-e/articles/16594809.html">Verilog版</a> | <a href="#">VHDL版</a>】（49）双目OV5640的RGB-LCD显示<br>  例程【<a target="_blank" rel="noopener" href="https://www.cnblogs.com/roy-e/articles/16594814.html">Verilog版</a> | <a href="#">VHDL版</a>】（50）双目OV5640的HDMI显示<br>  例程【<a target="_blank" rel="noopener" href="https://www.cnblogs.com/roy-e/articles/16594819.html">Verilog版</a> | <a href="#">VHDL版</a>】（51）光纤接口眼图测试<br>  例程【<a target="_blank" rel="noopener" href="https://www.cnblogs.com/roy-e/articles/16594820.html">Verilog版</a> | <a href="#">VHDL版</a>】（52）基于OV5640的数字识别<br>  例程【<a target="_blank" rel="noopener" href="https://www.cnblogs.com/roy-e/articles/16594821.html">Verilog版</a> | <a href="#">VHDL版</a>】（53）光纤接口8b10b测试<br>  例程【<a target="_blank" rel="noopener" href="https://www.cnblogs.com/roy-e/articles/16594824.html">Verilog版</a> | <a href="#">VHDL版</a>】（54）基于光口的视频传输测试<br></li>
+</ul>
 
       </div>
       <div class="post-tags-categories">
@@ -897,7 +915,7 @@
     </li>
     <li class="post-copyright-link">
     <strong>文章链接:  </strong>
-    <a href="/post/undefined.html" target="_blank" title="Hello World">https://happy-roy.github.io/post/undefined.html</a>
+    <a href="/post/undefined.html" target="_blank" title="Altera FPGA 例程目录">https://happy-roy.github.io/post/undefined.html</a>
     </li>
     <li class="post-copyright-license">
       <strong>版权声明:   </strong>
@@ -915,7 +933,48 @@
 
 
 
+  
+  <div class="post-nav-prev post-nav-item">
+    <div class="post-nav-img" style="background-size: cover; 
+      background-position: center center;">
+      <img class="lazyload lazyload placeholder" src="/medias/5.jpg" class="lazyload placeholder" data-srcset="/medias/5.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+    </div>
+    <a href="/post/undefined.html" class="post-nav-link">
+      <div class="title">
+        <i class="fas fa-angle-left"></i> 上一篇:
+        <div class="title-text">Altera FPGA 例程目录</div>
+      </div>
+      
+      <!-- <div class="content">
+        欢迎来到 FPGA 多彩世界
 
+&nbsp; &nbsp; FPGA，它是一系列xxxx。
+&nbsp; &nbsp; 
+      </div> -->
+    </a>
+  </div>
+
+
+
+  
+  <div class="post-nav-next post-nav-item">
+    <div class="post-nav-img" style="background-size: cover; 
+      background-position: center center;">
+      <img class="lazyload lazyload placeholder" src="/medias/1.jpg" class="lazyload placeholder" data-srcset="/medias/1.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" src="" alt="">
+    </div>
+    <a href="/post/efeb9f28.html" class="post-nav-link">
+      <div class="title">
+        下一篇: <i class="fas fa-angle-right"></i>
+        <div class="title-text">XC7VX690T 例程（1）XXX</div>
+      </div>
+      <!-- <div class="content">
+        欢迎来到 FPGA 多彩世界
+
+&nbsp; &nbsp; FPGA，它是一系列xxxx。
+&nbsp; &nbsp; 
+      </div> -->
+    </a>
+  </div>
 
 </div>
 
@@ -1043,25 +1102,6 @@
 
   <!-- 目录 -->
   <!-- 文章详情页右侧目录 -->
-
-  <div class="toc-aside">
-    <div class="toc-main">
-      <div class="toc-aside-title">
-        <i class="fas fa-list-ul" aria-hidden="true"></i><span>本文目录</span>
-        
-          <div class="toc-open-close">本文目录</div>
-        
-      </div>
-      <div class="toc-content">
-        <div class="toc"></div>
-      </div>
-    </div>
-  </div>
-
-  <!-- 手机端目录按钮 -->
-  <div id="toc-mobile-btn">
-    <i class="fas fa-list-ul" aria-hidden="true"></i>
-  </div>
 
 
 <script>
@@ -1952,6 +1992,31 @@
 
 
 <!-- 卡片滚动动画 -->
+
+    <script type="text/javascript">
+  loadScript("https://unpkg.com/scrollreveal@4.0.6/dist/scrollreveal.min.js")
+  function pjax_scrollrebeal() {
+    ScrollReveal().reveal('.reveal', {
+      distance: '120px',
+      duration: '400',
+      interval: '30',
+      scale: '1',
+      origin: 'bottom', // 动画开始的方向
+      easing: 'ease'
+    });
+  }
+  $(function () {
+    var checkScrollReveal = setInterval(function () {
+      if ($("#safearea").css("display") != "block") return
+      if (typeof ScrollReveal == "undefined") return
+      clearInterval(checkScrollReveal)
+      pjax_scrollrebeal();
+    }, 100)
+  });
+  document.addEventListener('pjax:complete', function () {
+    pjax_scrollrebeal();
+  })
+</script>
    
 
 <!-- 评论所需js -->

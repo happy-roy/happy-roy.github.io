@@ -19,6 +19,21 @@
   <link href="/js/swiper/swiper@5.4.1.min.css" rel="stylesheet">
   
   
+    <script>
+        var themeModelId = '0';
+        if (themeModelId) {
+            localStorage.setItem('modelId', themeModelId);
+        }
+    </script>
+    
+    <script src="https://cdn.jsdelivr.net/gh/yuang01/live2d-widget@latest/autoload.js"></script>
+    <script>
+        var live2dOpen = eval('true') || false;
+        if (!live2dOpen) {
+            localStorage.setItem('waifu-display', 1609323474481);
+        }
+    </script>
+  
   
   
 <link rel="stylesheet" href="/css/animate.min.css">
@@ -830,47 +845,455 @@
 
 
 
-<div class="swiper-length" style="display: none;">0</div>
+<div class="swiper-length" style="display: none;">10</div>
 <div id="appSwiper"
-  class="swiper-no-swiping"
+  class=""
   @mouseenter="stopAutoPlay()" 
   @mouseleave="startAutoPlay()"
 >
   <swiper v-cloak ref="mySwiper" :options="swiperOptions" @slideChangeTransitionEnd="slideChangeTransitionEnd">
     
-      <swiper-slide>
-        <div class="item swiper-lazy" data-background="https://pic4.zhimg.com/80/v2-5317ee3782ed2cdc733a907b0065f895_1440w.jpg" style="background-size: 300000px; 
-          background-position: left center;" style="position: relative;">
-          <div class="swiper-bgmask" style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;"></div>
-            <div class="flag">
-              
-              <div class="img-mask swiper-lazy swiper-default-bgImg" data-background="https://pic4.zhimg.com/80/v2-5317ee3782ed2cdc733a907b0065f895_1440w.jpg" style="height: 100%; background-size: cover; 
-                background-position: center center;">
-                <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>   
-              </div>
-              <div class="flag-text">
-                <div class="flag-text-content">
-                  <div class="title ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s">我有一个梦想</div>
-                  
-                    <div class="ani animated default-excerpt" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s">
-                      <vue-typed-js :strings="defaultDesc" :loop="defaultDescTypedLoop" :type-speed="100" :back-speed="50">
-                        <h1 class="typing"></h1>
-                      </vue-typed-js>
-                    </div>
-                    
+      
+        <swiper-slide>
+          <div class="item swiper-lazy" data-background="https://pic4.zhimg.com/80/v2-5317ee3782ed2cdc733a907b0065f895_1440w.jpg" style="background-size: 300000px; 
+            background-position: left center;" style="position: relative;">
+            <div class="swiper-bgmask" style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;"></div>
+              <div class="flag">
+                
+                <div class="img-mask swiper-lazy swiper-default-bgImg" data-background="https://pic4.zhimg.com/80/v2-5317ee3782ed2cdc733a907b0065f895_1440w.jpg" style="height: 100%; background-size: cover; 
+                  background-position: center center;">
+                  <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>   
                 </div>
-                <div style="display: flex;" class="flag-text-btns">
-                  
-                    <div class="ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s"><a href="/#l_main" class="read-more swiper-btn-color" style="display: inline-block; z-index:1;">开始浏览</a></div>
-                  
-                  
-                    <div class="ani animated" style="margin-left: 10px;" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s"><a target="_blank" rel="noopener" href="https://royt-e.github.io" class="read-more swiper-btn-color2" style="display: inline-block; z-index:1;border: 1px solid white;">开往·新世界</a></div>
-                  
+                <div class="flag-text">
+                  <div class="flag-text-content">
+                    <div class="title ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s">我有一个梦想</div>
+                    
+                      <div  class="ani animated default-excerpt" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s">
+                        <vue-typed-js :strings="defaultDesc" :loop="defaultDescTypedLoop" :type-speed="100" :back-speed="50">
+                          <h1 class="typing"></h1>
+                        </vue-typed-js>
+                      </div>
+                      
+                  </div>
+                  <div style="display: flex;" class="flag-text-btns">
+                    
+                      <div class="ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s"><a href="/#l_main" class="read-more swiper-btn-color" style="display: inline-block; z-index:1;">开始浏览</a></div>
+                    
+                    
+                      <div class="ani animated" style="margin-left: 10px;" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s"><a target="_blank" rel="noopener" href="https://royt-e.github.io" class="read-more swiper-btn-color2" style="display: inline-block; z-index:1;border: 1px solid white;">开往·新世界</a></div>
+                    
+                  </div>
+                </div>
+              </div>
+          </div>
+        </swiper-slide>
+      
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+          
+          <swiper-slide>
+            <div class="item swiper-lazy" data-background="/medias/1.jpg" style=" background-size: 300000px; 
+            background-position: left center;" style="position: relative;">
+              <div class="swiper-bgmask" style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;"></div>
+              <div class="flag" style="z-index: 2;">
+                <div class="img-mask swiper-lazy" data-background="/medias/1.jpg" style="height: 100%; background-size: cover; 
+                  background-position: center center;">
+                  <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>  
+                </div>
+                <div class="flag-text">
+                  <div class="flag-text-content">
+                    <div class="title ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s">
+                      <a href="/post/efeb9f28.html">
+                        XC7VX690T 例程（1）XXX
+                      </a>
+                    </div>
+                    <div class="excerpt ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s">欢迎来到 FPGA 多彩世界
+
+&nbsp; &nbsp; FPGA，它是一系列xxxx。
+&nbsp; &nbsp; 此处根据应用中的接触，列举 Xilinx 如下几种 FPGA 类型做示范以及进一步深入学习。  
+
+
+
+</div>
+                  </div>
+                  <div class="bottom-one-btn ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s"><a href="/post/efeb9f28.html" class="read-more swiper-btn-color" style="display: inline-block; z-index:1;">阅读更多</a></div>
                 </div>
               </div>
             </div>
-          </div>
-      </swiper-slide>
+
+          </swiper-slide>
+        
+      
+        
+        
+          
+          <swiper-slide>
+            <div class="item swiper-lazy" data-background="/medias/1.jpg" style=" background-size: 300000px; 
+            background-position: left center;" style="position: relative;">
+              <div class="swiper-bgmask" style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;"></div>
+              <div class="flag" style="z-index: 2;">
+                <div class="img-mask swiper-lazy" data-background="/medias/1.jpg" style="height: 100%; background-size: cover; 
+                  background-position: center center;">
+                  <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>  
+                </div>
+                <div class="flag-text">
+                  <div class="flag-text-content">
+                    <div class="title ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s">
+                      <a href="/post/8720a8f1.html">
+                        XC7VX484T 例程（1）XXX
+                      </a>
+                    </div>
+                    <div class="excerpt ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s">欢迎来到 FPGA 多彩世界
+
+&nbsp; &nbsp; FPGA，它是一系列xxxx。
+&nbsp; &nbsp; 此处根据应用中的接触，列举 Xilinx 如下几种 FPGA 类型做示范以及进一步深入学习。  
+
+
+
+</div>
+                  </div>
+                  <div class="bottom-one-btn ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s"><a href="/post/8720a8f1.html" class="read-more swiper-btn-color" style="display: inline-block; z-index:1;">阅读更多</a></div>
+                </div>
+              </div>
+            </div>
+
+          </swiper-slide>
+        
+      
+        
+        
+          
+          <swiper-slide>
+            <div class="item swiper-lazy" data-background="/medias/1.jpg" style=" background-size: 300000px; 
+            background-position: left center;" style="position: relative;">
+              <div class="swiper-bgmask" style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;"></div>
+              <div class="flag" style="z-index: 2;">
+                <div class="img-mask swiper-lazy" data-background="/medias/1.jpg" style="height: 100%; background-size: cover; 
+                  background-position: center center;">
+                  <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>  
+                </div>
+                <div class="flag-text">
+                  <div class="flag-text-content">
+                    <div class="title ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s">
+                      <a href="/post/ea8e41a.html">
+                        XC7VX666T 例程（1）XXX
+                      </a>
+                    </div>
+                    <div class="excerpt ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s">欢迎来到 FPGA 多彩世界
+
+&nbsp; &nbsp; FPGA，它是一系列xxxx。
+&nbsp; &nbsp; 此处根据应用中的接触，列举 Xilinx 如下几种 FPGA 类型做示范以及进一步深入学习。  
+
+
+
+</div>
+                  </div>
+                  <div class="bottom-one-btn ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s"><a href="/post/ea8e41a.html" class="read-more swiper-btn-color" style="display: inline-block; z-index:1;">阅读更多</a></div>
+                </div>
+              </div>
+            </div>
+
+          </swiper-slide>
+        
+      
+        
+        
+          
+          <swiper-slide>
+            <div class="item swiper-lazy" data-background="/medias/1.jpg" style=" background-size: 300000px; 
+            background-position: left center;" style="position: relative;">
+              <div class="swiper-bgmask" style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;"></div>
+              <div class="flag" style="z-index: 2;">
+                <div class="img-mask swiper-lazy" data-background="/medias/1.jpg" style="height: 100%; background-size: cover; 
+                  background-position: center center;">
+                  <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>  
+                </div>
+                <div class="flag-text">
+                  <div class="flag-text-content">
+                    <div class="title ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s">
+                      <a href="/post/6e300ecf.html">
+                        XC7VX325T 例程（1）XXX
+                      </a>
+                    </div>
+                    <div class="excerpt ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s">欢迎来到 FPGA 多彩世界
+
+&nbsp; &nbsp; FPGA，它是一系列xxxx。
+&nbsp; &nbsp; 此处根据应用中的接触，列举 Xilinx 如下几种 FPGA 类型做示范以及进一步深入学习。  
+
+
+
+</div>
+                  </div>
+                  <div class="bottom-one-btn ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s"><a href="/post/6e300ecf.html" class="read-more swiper-btn-color" style="display: inline-block; z-index:1;">阅读更多</a></div>
+                </div>
+              </div>
+            </div>
+
+          </swiper-slide>
+        
+      
+        
+        
+          
+          <swiper-slide>
+            <div class="item swiper-lazy" data-background="/medias/1.jpg" style=" background-size: 300000px; 
+            background-position: left center;" style="position: relative;">
+              <div class="swiper-bgmask" style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;"></div>
+              <div class="flag" style="z-index: 2;">
+                <div class="img-mask swiper-lazy" data-background="/medias/1.jpg" style="height: 100%; background-size: cover; 
+                  background-position: center center;">
+                  <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>  
+                </div>
+                <div class="flag-text">
+                  <div class="flag-text-content">
+                    <div class="title ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s">
+                      <a href="/post/1a80fab4.html">
+                        SM25Q 例程（1）XXX
+                      </a>
+                    </div>
+                    <div class="excerpt ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s">欢迎来到 FPGA 多彩世界
+
+&nbsp; &nbsp; FPGA，它是一系列xxxx。
+&nbsp; &nbsp; 此处根据应用中的接触，列举 Xilinx 如下几种 FPGA 类型做示范以及进一步深入学习。  
+
+
+
+</div>
+                  </div>
+                  <div class="bottom-one-btn ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s"><a href="/post/1a80fab4.html" class="read-more swiper-btn-color" style="display: inline-block; z-index:1;">阅读更多</a></div>
+                </div>
+              </div>
+            </div>
+
+          </swiper-slide>
+        
+      
+        
+        
+          
+          <swiper-slide>
+            <div class="item swiper-lazy" data-background="/medias/1.jpg" style=" background-size: 300000px; 
+            background-position: left center;" style="position: relative;">
+              <div class="swiper-bgmask" style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;"></div>
+              <div class="flag" style="z-index: 2;">
+                <div class="img-mask swiper-lazy" data-background="/medias/1.jpg" style="height: 100%; background-size: cover; 
+                  background-position: center center;">
+                  <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>  
+                </div>
+                <div class="flag-text">
+                  <div class="flag-text-content">
+                    <div class="title ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s">
+                      <a href="/post/f5d24c55.html">
+                        SM25P 例程（1）XXX
+                      </a>
+                    </div>
+                    <div class="excerpt ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s">欢迎来到 FPGA 多彩世界
+
+&nbsp; &nbsp; FPGA，它是一系列xxxx。
+&nbsp; &nbsp; 此处根据应用中的接触，列举 Xilinx 如下几种 FPGA 类型做示范以及进一步深入学习。  
+
+
+
+</div>
+                  </div>
+                  <div class="bottom-one-btn ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s"><a href="/post/f5d24c55.html" class="read-more swiper-btn-color" style="display: inline-block; z-index:1;">阅读更多</a></div>
+                </div>
+              </div>
+            </div>
+
+          </swiper-slide>
+        
+      
+        
+        
+          
+          <swiper-slide>
+            <div class="item swiper-lazy" data-background="/medias/1.jpg" style=" background-size: 300000px; 
+            background-position: left center;" style="position: relative;">
+              <div class="swiper-bgmask" style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;"></div>
+              <div class="flag" style="z-index: 2;">
+                <div class="img-mask swiper-lazy" data-background="/medias/1.jpg" style="height: 100%; background-size: cover; 
+                  background-position: center center;">
+                  <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>  
+                </div>
+                <div class="flag-text">
+                  <div class="flag-text-content">
+                    <div class="title ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s">
+                      <a href="/post/f4f9135.html">
+                        HHD32F4 例程（1）XXX
+                      </a>
+                    </div>
+                    <div class="excerpt ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s">欢迎来到 FPGA 多彩世界
+
+&nbsp; &nbsp; FPGA，它是一系列xxxx。
+&nbsp; &nbsp; 此处根据应用中的接触，列举 Xilinx 如下几种 FPGA 类型做示范以及进一步深入学习。  
+
+
+
+</div>
+                  </div>
+                  <div class="bottom-one-btn ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s"><a href="/post/f4f9135.html" class="read-more swiper-btn-color" style="display: inline-block; z-index:1;">阅读更多</a></div>
+                </div>
+              </div>
+            </div>
+
+          </swiper-slide>
+        
+      
+        
+        
+          
+          <swiper-slide>
+            <div class="item swiper-lazy" data-background="/medias/1.jpg" style=" background-size: 300000px; 
+            background-position: left center;" style="position: relative;">
+              <div class="swiper-bgmask" style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;"></div>
+              <div class="flag" style="z-index: 2;">
+                <div class="img-mask swiper-lazy" data-background="/medias/1.jpg" style="height: 100%; background-size: cover; 
+                  background-position: center center;">
+                  <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>  
+                </div>
+                <div class="flag-text">
+                  <div class="flag-text-content">
+                    <div class="title ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s">
+                      <a href="/post/ebb5f0d2.html">
+                        HHD32F1 例程（1）XXX
+                      </a>
+                    </div>
+                    <div class="excerpt ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s">欢迎来到 FPGA 多彩世界
+
+&nbsp; &nbsp; FPGA，它是一系列xxxx。
+&nbsp; &nbsp; 此处根据应用中的接触，列举 Xilinx 如下几种 FPGA 类型做示范以及进一步深入学习。  
+
+
+
+</div>
+                  </div>
+                  <div class="bottom-one-btn ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s"><a href="/post/ebb5f0d2.html" class="read-more swiper-btn-color" style="display: inline-block; z-index:1;">阅读更多</a></div>
+                </div>
+              </div>
+            </div>
+
+          </swiper-slide>
+        
+      
+        
+        
+          
+          <swiper-slide>
+            <div class="item swiper-lazy" data-background="/medias/1.jpg" style=" background-size: 300000px; 
+            background-position: left center;" style="position: relative;">
+              <div class="swiper-bgmask" style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;"></div>
+              <div class="flag" style="z-index: 2;">
+                <div class="img-mask swiper-lazy" data-background="/medias/1.jpg" style="height: 100%; background-size: cover; 
+                  background-position: center center;">
+                  <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>  
+                </div>
+                <div class="flag-text">
+                  <div class="flag-text-content">
+                    <div class="title ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s">
+                      <a href="/post/55cb5da7.html">
+                        STM32F4 例程（1）XXX
+                      </a>
+                    </div>
+                    <div class="excerpt ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s">欢迎来到 FPGA 多彩世界
+
+&nbsp; &nbsp; FPGA，它是一系列xxxx。
+&nbsp; &nbsp; 此处根据应用中的接触，列举 Xilinx 如下几种 FPGA 类型做示范以及进一步深入学习。  
+
+
+
+</div>
+                  </div>
+                  <div class="bottom-one-btn ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s"><a href="/post/55cb5da7.html" class="read-more swiper-btn-color" style="display: inline-block; z-index:1;">阅读更多</a></div>
+                </div>
+              </div>
+            </div>
+
+          </swiper-slide>
+        
+      
+        
+        
+          
+          <swiper-slide>
+            <div class="item swiper-lazy" data-background="/medias/1.jpg" style=" background-size: 300000px; 
+            background-position: left center;" style="position: relative;">
+              <div class="swiper-bgmask" style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;"></div>
+              <div class="flag" style="z-index: 2;">
+                <div class="img-mask swiper-lazy" data-background="/medias/1.jpg" style="height: 100%; background-size: cover; 
+                  background-position: center center;">
+                  <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>  
+                </div>
+                <div class="flag-text">
+                  <div class="flag-text-content">
+                    <div class="title ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s">
+                      <a href="/post/b1313c40.html">
+                        STM32F1 例程（1）XXX
+                      </a>
+                    </div>
+                    <div class="excerpt ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s">欢迎来到 FPGA 多彩世界
+
+&nbsp; &nbsp; FPGA，它是一系列xxxx。
+&nbsp; &nbsp; 此处根据应用中的接触，列举 Xilinx 如下几种 FPGA 类型做示范以及进一步深入学习。  
+
+
+
+</div>
+                  </div>
+                  <div class="bottom-one-btn ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s"><a href="/post/b1313c40.html" class="read-more swiper-btn-color" style="display: inline-block; z-index:1;">阅读更多</a></div>
+                </div>
+              </div>
+            </div>
+
+          </swiper-slide>
+        
+      
+    <div class="swiper-pagination" slot="pagination" pointer style=""></div>
+    <div class="swiper-button-prev swiper-button-white" pointer slot="button-prev" style=""></div>
+    <div class="swiper-button-next swiper-button-white" pointer slot="button-next" style=""></div>
     
   </swiper>
   
@@ -1666,6 +2089,272 @@
 		
 			
 		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+				<div class="article-link">
+					
+					<div class="article" style="background-size: cover; 
+						background-position: center center;">
+						<img class="lazyload lazyload placeholder" src="/medias/1.jpg" class="lazyload placeholder" data-srcset="/medias/1.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+					</div>
+					<div class="text">
+						<div class="text-main">
+							<div class="title"><a href="/post/efeb9f28.html">XC7VX690T 例程（1）XXX</a></div>
+							<div class="content">
+								欢迎来到 FPGA 多彩世界
+
+&nbsp; &nbsp; FPGA，它是一系列xxxx。
+&nbsp; &nbsp; 
+							</div>
+						</div>
+						<a href="/post/efeb9f28.html" class="more">
+							<i class="fas fa-eye" aria-hidden="true"></i>阅读更多
+						</a>
+					</div>
+				</div>
+			
+		
+			
+				<div class="article-link">
+					
+					<div class="article" style="background-size: cover; 
+						background-position: center center;">
+						<img class="lazyload lazyload placeholder" src="/medias/1.jpg" class="lazyload placeholder" data-srcset="/medias/1.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+					</div>
+					<div class="text">
+						<div class="text-main">
+							<div class="title"><a href="/post/8720a8f1.html">XC7VX484T 例程（1）XXX</a></div>
+							<div class="content">
+								欢迎来到 FPGA 多彩世界
+
+&nbsp; &nbsp; FPGA，它是一系列xxxx。
+&nbsp; &nbsp; 
+							</div>
+						</div>
+						<a href="/post/8720a8f1.html" class="more">
+							<i class="fas fa-eye" aria-hidden="true"></i>阅读更多
+						</a>
+					</div>
+				</div>
+			
+		
+			
+				<div class="article-link">
+					
+					<div class="article" style="background-size: cover; 
+						background-position: center center;">
+						<img class="lazyload lazyload placeholder" src="/medias/1.jpg" class="lazyload placeholder" data-srcset="/medias/1.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+					</div>
+					<div class="text">
+						<div class="text-main">
+							<div class="title"><a href="/post/ea8e41a.html">XC7VX666T 例程（1）XXX</a></div>
+							<div class="content">
+								欢迎来到 FPGA 多彩世界
+
+&nbsp; &nbsp; FPGA，它是一系列xxxx。
+&nbsp; &nbsp; 
+							</div>
+						</div>
+						<a href="/post/ea8e41a.html" class="more">
+							<i class="fas fa-eye" aria-hidden="true"></i>阅读更多
+						</a>
+					</div>
+				</div>
+			
+		
+			
+				<div class="article-link">
+					
+					<div class="article" style="background-size: cover; 
+						background-position: center center;">
+						<img class="lazyload lazyload placeholder" src="/medias/1.jpg" class="lazyload placeholder" data-srcset="/medias/1.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+					</div>
+					<div class="text">
+						<div class="text-main">
+							<div class="title"><a href="/post/6e300ecf.html">XC7VX325T 例程（1）XXX</a></div>
+							<div class="content">
+								欢迎来到 FPGA 多彩世界
+
+&nbsp; &nbsp; FPGA，它是一系列xxxx。
+&nbsp; &nbsp; 
+							</div>
+						</div>
+						<a href="/post/6e300ecf.html" class="more">
+							<i class="fas fa-eye" aria-hidden="true"></i>阅读更多
+						</a>
+					</div>
+				</div>
+			
+		
+			
+				<div class="article-link">
+					
+					<div class="article" style="background-size: cover; 
+						background-position: center center;">
+						<img class="lazyload lazyload placeholder" src="/medias/1.jpg" class="lazyload placeholder" data-srcset="/medias/1.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+					</div>
+					<div class="text">
+						<div class="text-main">
+							<div class="title"><a href="/post/1a80fab4.html">SM25Q 例程（1）XXX</a></div>
+							<div class="content">
+								欢迎来到 FPGA 多彩世界
+
+&nbsp; &nbsp; FPGA，它是一系列xxxx。
+&nbsp; &nbsp; 
+							</div>
+						</div>
+						<a href="/post/1a80fab4.html" class="more">
+							<i class="fas fa-eye" aria-hidden="true"></i>阅读更多
+						</a>
+					</div>
+				</div>
+			
+		
+			
+				<div class="article-link">
+					
+					<div class="article" style="background-size: cover; 
+						background-position: center center;">
+						<img class="lazyload lazyload placeholder" src="/medias/1.jpg" class="lazyload placeholder" data-srcset="/medias/1.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+					</div>
+					<div class="text">
+						<div class="text-main">
+							<div class="title"><a href="/post/f5d24c55.html">SM25P 例程（1）XXX</a></div>
+							<div class="content">
+								欢迎来到 FPGA 多彩世界
+
+&nbsp; &nbsp; FPGA，它是一系列xxxx。
+&nbsp; &nbsp; 
+							</div>
+						</div>
+						<a href="/post/f5d24c55.html" class="more">
+							<i class="fas fa-eye" aria-hidden="true"></i>阅读更多
+						</a>
+					</div>
+				</div>
+			
+		
+			
+				<div class="article-link">
+					
+					<div class="article" style="background-size: cover; 
+						background-position: center center;">
+						<img class="lazyload lazyload placeholder" src="/medias/1.jpg" class="lazyload placeholder" data-srcset="/medias/1.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+					</div>
+					<div class="text">
+						<div class="text-main">
+							<div class="title"><a href="/post/f4f9135.html">HHD32F4 例程（1）XXX</a></div>
+							<div class="content">
+								欢迎来到 FPGA 多彩世界
+
+&nbsp; &nbsp; FPGA，它是一系列xxxx。
+&nbsp; &nbsp; 
+							</div>
+						</div>
+						<a href="/post/f4f9135.html" class="more">
+							<i class="fas fa-eye" aria-hidden="true"></i>阅读更多
+						</a>
+					</div>
+				</div>
+			
+		
+			
+				<div class="article-link">
+					
+					<div class="article" style="background-size: cover; 
+						background-position: center center;">
+						<img class="lazyload lazyload placeholder" src="/medias/1.jpg" class="lazyload placeholder" data-srcset="/medias/1.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+					</div>
+					<div class="text">
+						<div class="text-main">
+							<div class="title"><a href="/post/ebb5f0d2.html">HHD32F1 例程（1）XXX</a></div>
+							<div class="content">
+								欢迎来到 FPGA 多彩世界
+
+&nbsp; &nbsp; FPGA，它是一系列xxxx。
+&nbsp; &nbsp; 
+							</div>
+						</div>
+						<a href="/post/ebb5f0d2.html" class="more">
+							<i class="fas fa-eye" aria-hidden="true"></i>阅读更多
+						</a>
+					</div>
+				</div>
+			
+		
+			
+				<div class="article-link">
+					
+					<div class="article" style="background-size: cover; 
+						background-position: center center;">
+						<img class="lazyload lazyload placeholder" src="/medias/1.jpg" class="lazyload placeholder" data-srcset="/medias/1.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+					</div>
+					<div class="text">
+						<div class="text-main">
+							<div class="title"><a href="/post/55cb5da7.html">STM32F4 例程（1）XXX</a></div>
+							<div class="content">
+								欢迎来到 FPGA 多彩世界
+
+&nbsp; &nbsp; FPGA，它是一系列xxxx。
+&nbsp; &nbsp; 
+							</div>
+						</div>
+						<a href="/post/55cb5da7.html" class="more">
+							<i class="fas fa-eye" aria-hidden="true"></i>阅读更多
+						</a>
+					</div>
+				</div>
+			
+		
+			
+				<div class="article-link">
+					
+					<div class="article" style="background-size: cover; 
+						background-position: center center;">
+						<img class="lazyload lazyload placeholder" src="/medias/1.jpg" class="lazyload placeholder" data-srcset="/medias/1.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+					</div>
+					<div class="text">
+						<div class="text-main">
+							<div class="title"><a href="/post/b1313c40.html">STM32F1 例程（1）XXX</a></div>
+							<div class="content">
+								欢迎来到 FPGA 多彩世界
+
+&nbsp; &nbsp; FPGA，它是一系列xxxx。
+&nbsp; &nbsp; 
+							</div>
+						</div>
+						<a href="/post/b1313c40.html" class="more">
+							<i class="fas fa-eye" aria-hidden="true"></i>阅读更多
+						</a>
+					</div>
+				</div>
+			
+		
 	</div>
 </div>
 
@@ -1722,9 +2411,511 @@
       </div>
     </article>
   
+    
+    <article class="post reveal" style="   ">
+      <div class="post-main">
+        <div class="post-info">
+          <div class="post-time">
+            <i class="fas fa-clock" aria-hidden="true"></i>
+            <span class="post-time">2022-08-20</span>
+          </div>
+          <div class="post-title">
+            <a class="post-title-link" href="/post/undefined.html">Xilinx FPGA 例程目录</a>
+          </div>
+          <div class="post-meta">
+            <div class="post-tags">
+              <!-- 文章详情页的标签 -->
+
+            </div>
+            <div class="post-categories">
+              <!-- 文章详情页的分类 -->
+
+
+            </div>
+          </div>
+          <div class="post-img-mobile">
+            <a href="/post/undefined.html" style="background-size: cover; 
+              background-position: center center;">
+              <img class="lazyload lazyload placeholder" src="/medias/4.jpg" class="lazyload placeholder" data-srcset="/medias/4.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+            </a>
+          </div>
+          <div class="post-content">
+            欢迎来到 FPGA 多彩世界
+
+&nbsp; &nbsp; FPGA，它是一系列xxxx。
+&nbsp; &nbsp; 此处根据应用中的接触，列举 Xilinx 如下几种 FPGA 类型做示范以及进一步深入学习。  
+
+
+
+
+Xilinx 
+          </div>
+        </div>
+        <div class="post-more">
+          <a href="/post/undefined.html">
+            <i class="iconfont iconmore" pointer style="  " title="阅读更多"></i>
+          </a>
+        </div>
+      </div>
+      <div class="post-img">
+        <a href="/post/undefined.html" style="background-size: cover; 
+          background-position: center center;">
+          <img class="lazyload lazyload placeholder" src="/medias/4.jpg" class="lazyload placeholder" data-srcset="/medias/4.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+        </a>
+      </div>
+    </article>
+  
+    
+    <article class="post reveal" style="flex-direction: row-reverse;   ">
+      <div class="post-main">
+        <div class="post-info">
+          <div class="post-time">
+            <i class="fas fa-clock" aria-hidden="true"></i>
+            <span class="post-time">2022-08-20</span>
+          </div>
+          <div class="post-title">
+            <a class="post-title-link" href="/post/undefined.html">Xilinx FPGA 例程目录</a>
+          </div>
+          <div class="post-meta">
+            <div class="post-tags">
+              <!-- 文章详情页的标签 -->
+
+            </div>
+            <div class="post-categories">
+              <!-- 文章详情页的分类 -->
+
+
+            </div>
+          </div>
+          <div class="post-img-mobile">
+            <a href="/post/undefined.html" style="background-size: cover; 
+              background-position: center center;">
+              <img class="lazyload lazyload placeholder" src="/medias/4.jpg" class="lazyload placeholder" data-srcset="/medias/4.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+            </a>
+          </div>
+          <div class="post-content">
+            欢迎来到 FPGA 多彩世界
+
+&nbsp; &nbsp; FPGA，它是一系列xxxx。
+&nbsp; &nbsp; 此处根据应用中的接触，列举 Xilinx 如下几种 FPGA 类型做示范以及进一步深入学习。  
+
+
+
+
+Xilinx 
+          </div>
+        </div>
+        <div class="post-more">
+          <a href="/post/undefined.html">
+            <i class="iconfont iconmore" pointer style="float: right;  " title="阅读更多"></i>
+          </a>
+        </div>
+      </div>
+      <div class="post-img">
+        <a href="/post/undefined.html" style="background-size: cover; 
+          background-position: center center;">
+          <img class="lazyload lazyload placeholder" src="/medias/4.jpg" class="lazyload placeholder" data-srcset="/medias/4.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+        </a>
+      </div>
+    </article>
+  
+    
+    <article class="post reveal" style="   ">
+      <div class="post-main">
+        <div class="post-info">
+          <div class="post-time">
+            <i class="fas fa-clock" aria-hidden="true"></i>
+            <span class="post-time">2022-08-20</span>
+          </div>
+          <div class="post-title">
+            <a class="post-title-link" href="/post/undefined.html">Xilinx FPGA 例程目录</a>
+          </div>
+          <div class="post-meta">
+            <div class="post-tags">
+              <!-- 文章详情页的标签 -->
+
+            </div>
+            <div class="post-categories">
+              <!-- 文章详情页的分类 -->
+
+
+            </div>
+          </div>
+          <div class="post-img-mobile">
+            <a href="/post/undefined.html" style="background-size: cover; 
+              background-position: center center;">
+              <img class="lazyload lazyload placeholder" src="/medias/4.jpg" class="lazyload placeholder" data-srcset="/medias/4.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+            </a>
+          </div>
+          <div class="post-content">
+            欢迎来到 FPGA 多彩世界
+
+&nbsp; &nbsp; FPGA，它是一系列xxxx。
+&nbsp; &nbsp; 此处根据应用中的接触，列举 Xilinx 如下几种 FPGA 类型做示范以及进一步深入学习。  
+
+
+
+
+Xilinx 
+          </div>
+        </div>
+        <div class="post-more">
+          <a href="/post/undefined.html">
+            <i class="iconfont iconmore" pointer style="  " title="阅读更多"></i>
+          </a>
+        </div>
+      </div>
+      <div class="post-img">
+        <a href="/post/undefined.html" style="background-size: cover; 
+          background-position: center center;">
+          <img class="lazyload lazyload placeholder" src="/medias/4.jpg" class="lazyload placeholder" data-srcset="/medias/4.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+        </a>
+      </div>
+    </article>
+  
+    
+    <article class="post reveal" style="flex-direction: row-reverse;   ">
+      <div class="post-main">
+        <div class="post-info">
+          <div class="post-time">
+            <i class="fas fa-clock" aria-hidden="true"></i>
+            <span class="post-time">2022-08-20</span>
+          </div>
+          <div class="post-title">
+            <a class="post-title-link" href="/post/undefined.html">Xilinx FPGA 例程目录</a>
+          </div>
+          <div class="post-meta">
+            <div class="post-tags">
+              <!-- 文章详情页的标签 -->
+
+            </div>
+            <div class="post-categories">
+              <!-- 文章详情页的分类 -->
+
+
+            </div>
+          </div>
+          <div class="post-img-mobile">
+            <a href="/post/undefined.html" style="background-size: cover; 
+              background-position: center center;">
+              <img class="lazyload lazyload placeholder" src="/medias/4.jpg" class="lazyload placeholder" data-srcset="/medias/4.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+            </a>
+          </div>
+          <div class="post-content">
+            欢迎来到 FPGA 多彩世界
+
+&nbsp; &nbsp; FPGA，它是一系列xxxx。
+&nbsp; &nbsp; 此处根据应用中的接触，列举 Xilinx 如下几种 FPGA 类型做示范以及进一步深入学习。  
+
+
+
+
+Xilinx 
+          </div>
+        </div>
+        <div class="post-more">
+          <a href="/post/undefined.html">
+            <i class="iconfont iconmore" pointer style="float: right;  " title="阅读更多"></i>
+          </a>
+        </div>
+      </div>
+      <div class="post-img">
+        <a href="/post/undefined.html" style="background-size: cover; 
+          background-position: center center;">
+          <img class="lazyload lazyload placeholder" src="/medias/4.jpg" class="lazyload placeholder" data-srcset="/medias/4.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+        </a>
+      </div>
+    </article>
+  
+    
+    <article class="post reveal" style="   ">
+      <div class="post-main">
+        <div class="post-info">
+          <div class="post-time">
+            <i class="fas fa-clock" aria-hidden="true"></i>
+            <span class="post-time">2022-08-20</span>
+          </div>
+          <div class="post-title">
+            <a class="post-title-link" href="/post/undefined.html">Xilinx FPGA 例程目录</a>
+          </div>
+          <div class="post-meta">
+            <div class="post-tags">
+              <!-- 文章详情页的标签 -->
+
+            </div>
+            <div class="post-categories">
+              <!-- 文章详情页的分类 -->
+
+
+            </div>
+          </div>
+          <div class="post-img-mobile">
+            <a href="/post/undefined.html" style="background-size: cover; 
+              background-position: center center;">
+              <img class="lazyload lazyload placeholder" src="/medias/4.jpg" class="lazyload placeholder" data-srcset="/medias/4.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+            </a>
+          </div>
+          <div class="post-content">
+            欢迎来到 FPGA 多彩世界
+
+&nbsp; &nbsp; FPGA，它是一系列xxxx。
+&nbsp; &nbsp; 此处根据应用中的接触，列举 Xilinx 如下几种 FPGA 类型做示范以及进一步深入学习。  
+
+
+
+
+Xilinx 
+          </div>
+        </div>
+        <div class="post-more">
+          <a href="/post/undefined.html">
+            <i class="iconfont iconmore" pointer style="  " title="阅读更多"></i>
+          </a>
+        </div>
+      </div>
+      <div class="post-img">
+        <a href="/post/undefined.html" style="background-size: cover; 
+          background-position: center center;">
+          <img class="lazyload lazyload placeholder" src="/medias/4.jpg" class="lazyload placeholder" data-srcset="/medias/4.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+        </a>
+      </div>
+    </article>
+  
+    
+    <article class="post reveal" style="flex-direction: row-reverse;   ">
+      <div class="post-main">
+        <div class="post-info">
+          <div class="post-time">
+            <i class="fas fa-clock" aria-hidden="true"></i>
+            <span class="post-time">2022-08-20</span>
+          </div>
+          <div class="post-title">
+            <a class="post-title-link" href="/post/undefined.html">Xilinx FPGA 例程目录</a>
+          </div>
+          <div class="post-meta">
+            <div class="post-tags">
+              <!-- 文章详情页的标签 -->
+
+            </div>
+            <div class="post-categories">
+              <!-- 文章详情页的分类 -->
+
+
+            </div>
+          </div>
+          <div class="post-img-mobile">
+            <a href="/post/undefined.html" style="background-size: cover; 
+              background-position: center center;">
+              <img class="lazyload lazyload placeholder" src="/medias/4.jpg" class="lazyload placeholder" data-srcset="/medias/4.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+            </a>
+          </div>
+          <div class="post-content">
+            欢迎来到 FPGA 多彩世界
+
+&nbsp; &nbsp; FPGA，它是一系列xxxx。
+&nbsp; &nbsp; 此处根据应用中的接触，列举 Xilinx 如下几种 FPGA 类型做示范以及进一步深入学习。  
+
+
+
+
+Xilinx 
+          </div>
+        </div>
+        <div class="post-more">
+          <a href="/post/undefined.html">
+            <i class="iconfont iconmore" pointer style="float: right;  " title="阅读更多"></i>
+          </a>
+        </div>
+      </div>
+      <div class="post-img">
+        <a href="/post/undefined.html" style="background-size: cover; 
+          background-position: center center;">
+          <img class="lazyload lazyload placeholder" src="/medias/4.jpg" class="lazyload placeholder" data-srcset="/medias/4.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+        </a>
+      </div>
+    </article>
+  
+    
+    <article class="post reveal" style="   ">
+      <div class="post-main">
+        <div class="post-info">
+          <div class="post-time">
+            <i class="fas fa-clock" aria-hidden="true"></i>
+            <span class="post-time">2022-08-20</span>
+          </div>
+          <div class="post-title">
+            <a class="post-title-link" href="/post/undefined.html">Xilinx FPGA 例程目录</a>
+          </div>
+          <div class="post-meta">
+            <div class="post-tags">
+              <!-- 文章详情页的标签 -->
+
+            </div>
+            <div class="post-categories">
+              <!-- 文章详情页的分类 -->
+
+
+            </div>
+          </div>
+          <div class="post-img-mobile">
+            <a href="/post/undefined.html" style="background-size: cover; 
+              background-position: center center;">
+              <img class="lazyload lazyload placeholder" src="/medias/4.jpg" class="lazyload placeholder" data-srcset="/medias/4.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+            </a>
+          </div>
+          <div class="post-content">
+            欢迎来到 FPGA 多彩世界
+
+&nbsp; &nbsp; FPGA，它是一系列xxxx。
+&nbsp; &nbsp; 此处根据应用中的接触，列举 Xilinx 如下几种 FPGA 类型做示范以及进一步深入学习。  
+
+
+
+
+Xilinx 
+          </div>
+        </div>
+        <div class="post-more">
+          <a href="/post/undefined.html">
+            <i class="iconfont iconmore" pointer style="  " title="阅读更多"></i>
+          </a>
+        </div>
+      </div>
+      <div class="post-img">
+        <a href="/post/undefined.html" style="background-size: cover; 
+          background-position: center center;">
+          <img class="lazyload lazyload placeholder" src="/medias/4.jpg" class="lazyload placeholder" data-srcset="/medias/4.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+        </a>
+      </div>
+    </article>
+  
+    
+    <article class="post reveal" style="flex-direction: row-reverse;   ">
+      <div class="post-main">
+        <div class="post-info">
+          <div class="post-time">
+            <i class="fas fa-clock" aria-hidden="true"></i>
+            <span class="post-time">2022-08-20</span>
+          </div>
+          <div class="post-title">
+            <a class="post-title-link" href="/post/undefined.html">Xilinx FPGA 例程目录</a>
+          </div>
+          <div class="post-meta">
+            <div class="post-tags">
+              <!-- 文章详情页的标签 -->
+
+            </div>
+            <div class="post-categories">
+              <!-- 文章详情页的分类 -->
+
+
+            </div>
+          </div>
+          <div class="post-img-mobile">
+            <a href="/post/undefined.html" style="background-size: cover; 
+              background-position: center center;">
+              <img class="lazyload lazyload placeholder" src="/medias/4.jpg" class="lazyload placeholder" data-srcset="/medias/4.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+            </a>
+          </div>
+          <div class="post-content">
+            欢迎来到 FPGA 多彩世界
+
+&nbsp; &nbsp; FPGA，它是一系列xxxx。
+&nbsp; &nbsp; 此处根据应用中的接触，列举 Xilinx 如下几种 FPGA 类型做示范以及进一步深入学习。  
+
+
+
+
+Xilinx 
+          </div>
+        </div>
+        <div class="post-more">
+          <a href="/post/undefined.html">
+            <i class="iconfont iconmore" pointer style="float: right;  " title="阅读更多"></i>
+          </a>
+        </div>
+      </div>
+      <div class="post-img">
+        <a href="/post/undefined.html" style="background-size: cover; 
+          background-position: center center;">
+          <img class="lazyload lazyload placeholder" src="/medias/4.jpg" class="lazyload placeholder" data-srcset="/medias/4.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+        </a>
+      </div>
+    </article>
+  
+    
+    <article class="post reveal" style="   ">
+      <div class="post-main">
+        <div class="post-info">
+          <div class="post-time">
+            <i class="fas fa-clock" aria-hidden="true"></i>
+            <span class="post-time">2022-08-20</span>
+          </div>
+          <div class="post-title">
+            <a class="post-title-link" href="/post/undefined.html">Xilinx FPGA 例程目录</a>
+          </div>
+          <div class="post-meta">
+            <div class="post-tags">
+              <!-- 文章详情页的标签 -->
+
+            </div>
+            <div class="post-categories">
+              <!-- 文章详情页的分类 -->
+
+
+            </div>
+          </div>
+          <div class="post-img-mobile">
+            <a href="/post/undefined.html" style="background-size: cover; 
+              background-position: center center;">
+              <img class="lazyload lazyload placeholder" src="/medias/4.jpg" class="lazyload placeholder" data-srcset="/medias/4.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+            </a>
+          </div>
+          <div class="post-content">
+            欢迎来到 FPGA 多彩世界
+
+&nbsp; &nbsp; FPGA，它是一系列xxxx。
+&nbsp; &nbsp; 此处根据应用中的接触，列举 Xilinx 如下几种 FPGA 类型做示范以及进一步深入学习。  
+
+
+
+
+Xilinx 
+          </div>
+        </div>
+        <div class="post-more">
+          <a href="/post/undefined.html">
+            <i class="iconfont iconmore" pointer style="  " title="阅读更多"></i>
+          </a>
+        </div>
+      </div>
+      <div class="post-img">
+        <a href="/post/undefined.html" style="background-size: cover; 
+          background-position: center center;">
+          <img class="lazyload lazyload placeholder" src="/medias/4.jpg" class="lazyload placeholder" data-srcset="/medias/4.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+        </a>
+      </div>
+    </article>
+  
 </section>
     <!-- 翻页 -->
     
+  <!-- <nav class="page-nav">
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><a class="extend next" rel="next" href="/page/2/">下一页</a>
+  </nav> -->
+  <div class="page-nav">
+    
+    <div class="page-info">
+        <div class="page-info-text">1 / 3</div>
+    </div>
+    
+      <a href="/page/2/"
+         class="page-nav-next">
+          <span class="mr-5">下一页</span><i class="fas fa-angle-right"></i>
+      </a>
+      
+  </div>
+
   </div>
 
   
@@ -1811,10 +3002,60 @@
   <div class="layout_sticky">
     
       
+    <section class="widget side_category">
+      
+  <header>
+    
+      <a style="color: " href='/categories/'><i class="fas fa-folder-open fa-fw" aria-hidden="true"></i><span class='name'>文章分类</span></a>
+    
+  </header>
+
+
+      <div class='content'>
+        <ul class="entry navigation">
+          
+            <li><a class="flat-box"
+              title="/categories/CPLD-%E4%BE%8B%E7%A8%8B/" href="/categories/CPLD-%E4%BE%8B%E7%A8%8B/"
+              id="categoriesCPLD-E4BE8BE7A88B"
+              ><div class='name'>CPLD 例程</div><div class='badge'>(2)</div></a></li>
+          
+            <li><a class="flat-box"
+              title="/categories/HHD32-%E4%BE%8B%E7%A8%8B/" href="/categories/HHD32-%E4%BE%8B%E7%A8%8B/"
+              id="categoriesHHD32-E4BE8BE7A88B"
+              ><div class='name'>HHD32 例程</div><div class='badge'>(2)</div></a></li>
+          
+            <li><a class="flat-box"
+              title="/categories/STM32-%E4%BE%8B%E7%A8%8B/" href="/categories/STM32-%E4%BE%8B%E7%A8%8B/"
+              id="categoriesSTM32-E4BE8BE7A88B"
+              ><div class='name'>STM32 例程</div><div class='badge'>(2)</div></a></li>
+          
+            <li><a class="flat-box"
+              title="/categories/Xilinx-FPGA-%E4%BE%8B%E7%A8%8B/" href="/categories/Xilinx-FPGA-%E4%BE%8B%E7%A8%8B/"
+              id="categoriesXilinx-FPGA-E4BE8BE7A88B"
+              ><div class='name'>Xilinx FPGA 例程</div><div class='badge'>(4)</div></a></li>
+          
+        </ul>
+      </div>
+    </section>
+  
   
     
     
       
+<section class="widget side_tagcloud">
+    
+  <header>
+    
+      <a style="color: true" href='/tags/'><i class="fas fa-tags fa-fw" aria-hidden="true"></i><span class='name'>热门标签</span></a>
+    
+  </header>
+
+
+    <div class='content'>
+    <a href="/tags/ARM/" style="font-size: 18px; color: #aaa000">ARM</a> <a href="/tags/CPLD/" style="font-size: 12px; color: #555000">CPLD</a> <a href="/tags/FPGA/" style="font-size: 18px; color: #aaa000">FPGA</a> <a href="/tags/HHD32F1/" style="font-size: 6px; color: #000">HHD32F1</a> <a href="/tags/HHD32F4/" style="font-size: 6px; color: #000">HHD32F4</a> <a href="/tags/SM25P/" style="font-size: 6px; color: #000">SM25P</a> <a href="/tags/SM25Q/" style="font-size: 6px; color: #000">SM25Q</a> <a href="/tags/ST/" style="font-size: 18px; color: #aaa000">ST</a> <a href="/tags/STM32F1/" style="font-size: 6px; color: #000">STM32F1</a> <a href="/tags/STM32F4/" style="font-size: 6px; color: #000">STM32F4</a> <a href="/tags/XC7VX325T/" style="font-size: 6px; color: #000">XC7VX325T</a> <a href="/tags/XC7VX484T/" style="font-size: 6px; color: #000">XC7VX484T</a> <a href="/tags/XC7VX666T/" style="font-size: 6px; color: #000">XC7VX666T</a> <a href="/tags/XC7VX690T/" style="font-size: 6px; color: #000">XC7VX690T</a> <a href="/tags/Xilinx/" style="font-size: 18px; color: #aaa000">Xilinx</a> <a href="/tags/%E4%BE%8B%E7%A8%8B/" style="font-size: 24px; color: #fff000">例程</a> <a href="/tags/%E5%9B%BD%E4%BA%A7/" style="font-size: 12px; color: #555000">国产</a>
+    </div>
+</section>
+
   
     
     
@@ -1854,6 +3095,90 @@
             </div>
           </div>
         
+          <div class="aside-list-item">
+            
+            
+            
+
+            <div class="post-img-box">
+              <a href="/post/undefined.html" class="post-img " style="background-size: cover; 
+                background-position: center center;">
+                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="/medias/4.jpg" class="lazyload placeholder" data-srcset="/medias/4.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+              </a>
+            </div>
+            <div class="post-date-title">
+              <div>
+                
+                  <span class="post-date">08-20</span>
+                
+              </div>
+              <a class="post-title" href="/post/undefined.html">Xilinx FPGA 例程目录</a>
+            </div>
+          </div>
+        
+          <div class="aside-list-item">
+            
+            
+            
+
+            <div class="post-img-box">
+              <a href="/post/undefined.html" class="post-img " style="background-size: cover; 
+                background-position: center center;">
+                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="/medias/4.jpg" class="lazyload placeholder" data-srcset="/medias/4.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+              </a>
+            </div>
+            <div class="post-date-title">
+              <div>
+                
+                  <span class="post-date">08-20</span>
+                
+              </div>
+              <a class="post-title" href="/post/undefined.html">Xilinx FPGA 例程目录</a>
+            </div>
+          </div>
+        
+          <div class="aside-list-item">
+            
+            
+            
+
+            <div class="post-img-box">
+              <a href="/post/undefined.html" class="post-img " style="background-size: cover; 
+                background-position: center center;">
+                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="/medias/4.jpg" class="lazyload placeholder" data-srcset="/medias/4.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+              </a>
+            </div>
+            <div class="post-date-title">
+              <div>
+                
+                  <span class="post-date">08-20</span>
+                
+              </div>
+              <a class="post-title" href="/post/undefined.html">Xilinx FPGA 例程目录</a>
+            </div>
+          </div>
+        
+          <div class="aside-list-item">
+            
+            
+            
+
+            <div class="post-img-box">
+              <a href="/post/undefined.html" class="post-img " style="background-size: cover; 
+                background-position: center center;">
+                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="/medias/4.jpg" class="lazyload placeholder" data-srcset="/medias/4.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+              </a>
+            </div>
+            <div class="post-date-title">
+              <div>
+                
+                  <span class="post-date">08-20</span>
+                
+              </div>
+              <a class="post-title" href="/post/undefined.html">Xilinx FPGA 例程目录</a>
+            </div>
+          </div>
+        
       </div>
     </div>
   </section>
@@ -1861,7 +3186,7 @@
     
   <section class="widget side_archives">
     
-    <header><a style="color: red" href='/archives/'><i class="fas fa-archive fa-fw" aria-hidden="true"></i><span class='name'>归档</span></a></header><div class="content"><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/10/"><span class="card-archive-list-date">十月 2022</span><span class="card-archive-list-count">1</span></a></li></ul></div>
+    <header><a style="color: red" href='/archives/'><i class="fas fa-archive fa-fw" aria-hidden="true"></i><span class='name'>归档</span></a></header><div class="content"><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/10/"><span class="card-archive-list-date">十月 2022</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/08/"><span class="card-archive-list-date">八月 2022</span><span class="card-archive-list-count">23</span></a></li></ul></div>
   </section>
 
     <section class="widget side_webinfo">
@@ -1878,7 +3203,7 @@
       
         <div class="webinfo-item">
           <div>文章数目：</div>
-          <div>1 篇</div>
+          <div>24 篇</div>
         </div>
       
 
@@ -1921,7 +3246,7 @@
         <div class="webinfo-item">
           <div>最后活动时间：</div>
           
-            <div id="last-update" style="display: none;">Sun Oct 16 2022 13:27:53 GMT+0800 (GMT+08:00)</div>
+            <div id="last-update" style="display: none;">Sun Oct 16 2022 13:35:23 GMT+0800 (GMT+08:00)</div>
             <div id="last-update-show">2022-10-16 日</div>
           
         </div>
@@ -2694,6 +4019,31 @@
 
 
 <!-- 卡片滚动动画 -->
+
+    <script type="text/javascript">
+  loadScript("https://unpkg.com/scrollreveal@4.0.6/dist/scrollreveal.min.js")
+  function pjax_scrollrebeal() {
+    ScrollReveal().reveal('.reveal', {
+      distance: '120px',
+      duration: '400',
+      interval: '30',
+      scale: '1',
+      origin: 'bottom', // 动画开始的方向
+      easing: 'ease'
+    });
+  }
+  $(function () {
+    var checkScrollReveal = setInterval(function () {
+      if ($("#safearea").css("display") != "block") return
+      if (typeof ScrollReveal == "undefined") return
+      clearInterval(checkScrollReveal)
+      pjax_scrollrebeal();
+    }, 100)
+  });
+  document.addEventListener('pjax:complete', function () {
+    pjax_scrollrebeal();
+  })
+</script>
    
 
 <!-- 评论所需js -->
